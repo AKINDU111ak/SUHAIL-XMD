@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "© GlobalTechInfo"
 
 global.devs = "" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "94724865987";
 
 
 
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID  || ""  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID  || "levanter_138d2b5467c71549d9a1d861a5113b4660"  // PUT your SESSION_ID 
 
 
 module.exports = {
